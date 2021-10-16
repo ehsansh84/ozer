@@ -2,7 +2,7 @@
 import sys, re
 import yaml
 
-with open("config.yaml", "r") as config:
+with open("/usr/bin/config.yaml", "r") as config:
     try:
         config = yaml.safe_load(config)
     except yaml.YAMLError as exc:

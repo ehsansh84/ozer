@@ -6,6 +6,7 @@ success:
     - done
     - active
     - running
+    - ok
   color:
     green
 fail:
@@ -13,5 +14,12 @@ fail:
     - failed
     - error
     - not found
+    - failure
   color:
     red
+other:
+  words:
+    - true
+    - false
+  color:
+    blue
