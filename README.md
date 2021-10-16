@@ -37,5 +37,7 @@ To catch IPs in the output simply set `ip: true` in config. It's very useful to 
 For run `ip a | ozer` will result:
 ![alt text](img/result1.png)
 
+### Another sample here:
+![alt text](img/result2.png)
 
 
