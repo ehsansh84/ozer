@@ -1,0 +1,21 @@
+ip: true
+defaults:
+  words:
+    - red
+    - inet
+    - link
+  color:
+    blue
+success:
+  words:
+    - success
+    - done
+  color:
+    green
+fail:
+  words:
+    - failed
+    - error
+  color:
+    red
+
