@@ -1,15 +1,10 @@
 ip: true
-defaults:
-  words:
-    - red
-    - inet
-    - link
-  color:
-    blue
 success:
   words:
     - success
     - done
+    - active
+    - running
   color:
     green
 fail:
@@ -18,4 +13,3 @@ fail:
     - error
   color:
     red
-
