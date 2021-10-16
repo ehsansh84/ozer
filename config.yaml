@@ -11,5 +11,6 @@ fail:
   words:
     - failed
     - error
+    - not found
   color:
     red
