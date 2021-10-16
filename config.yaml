@@ -1,6 +1,7 @@
 ip: true
 success:
   words:
+    - successful
     - success
     - done
     - active

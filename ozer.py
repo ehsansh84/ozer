@@ -31,11 +31,11 @@ if __name__ == "__main__":
             IPs = pat.findall(l)
             if IPs is not None:
                 for ip in IPs:
-                    line = line.replace(ip, f'{CSI}{COLORS["white"]};40m"{ip}{CSI}0m')
+                    line = line.replace(ip, f'{CSI}{COLORS["white"]};40m{ip}{CSI}0m')
         for key in config.keys():
             if key not in KEYWORDS:
                 for item in config[key]['words']:
                     # print(item)
                     compiled = re.compile(re.escape(item), re.IGNORECASE)
-                    line = compiled.sub(f'{CSI}{COLORS[config[key]["color"]]};40m"{item}{CSI}0m', line)
+                    line = compiled.sub(f'{CSI}{COLORS[config[key]["color"]]};40m{item}{CSI}0m', line)
         print(line.rstrip("\n"))
