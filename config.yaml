@@ -7,6 +7,7 @@ success:
     - active
     - running
     - ok
+    - Ready
   color:
     green
 fail:
@@ -14,12 +15,14 @@ fail:
     - failed
     - error
     - not found
-    - failure
+    - failuire
+    - NotReady
   color:
     red
 other:
   words:
     - true
     - false
+    - taint
   color:
     blue
